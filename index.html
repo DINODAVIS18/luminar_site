@@ -23,7 +23,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg " style="background-color: #5e068a; margin-bottom: -40px; margin-top: 1px;">
-        <div class="container">
+        <div class="container w-20">
             <p style="margin-bottom: 33px; font-family: 'Montserrat', sans-serif; font-size: 14px;" class="text-white">
                 Have any question?</p>
             <a class="navbar-brand text-white"
@@ -33,7 +33,7 @@
                 <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active text-white"
-                            style="margin-bottom: 33px; margin-left: 450px; font-family: 'Montserrat', sans-serif; font-size: 14px;"
+                            style="margin-bottom: 33px; margin-left: 455px; font-family: 'Montserrat', sans-serif; font-size: 14px;"
                             aria-current="page" href="#"><i class="fa-solid fa-phone" style="margin-right: 5px;"></i>+91
                             8086 651 651</a>
                     </li>
@@ -85,27 +85,34 @@
         </div>
     </nav>
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-        <div class="carousel-inner bg-black" >
-            <div class="carousel-item active"data-bs-interval="1300">
-                <img style="height: 500px; opacity: 0.4;" src="./pics/carousel1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-inner bg-black">
+            <div class="carousel-item active" data-bs-interval="1300">
+                <img style="height: 500px; opacity: 0.5;" src="./pics/carousel1.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block" style="margin-bottom: 40px;  text-align: start;">
                     <h1 style=" font-weight: 600; font-size: 50px; margin-bottom: 25px;">
                         Kerala's No.1 IT Finishing School<br>100% Placement Assistance</h1>
-                    <p style="font-family: 'Montserrat', sans-serif;">We at LUMINAR TECHNOLAB offers best software training and placement in emerging <br> like
+                    <p style="font-family: 'Montserrat', sans-serif;">We at LUMINAR TECHNOLAB offers best software
+                        training and placement in emerging <br> like
                         BIG DATA, Data Science, Machine Learning,PYTHON, Software Testing.</p>
                     <div class="slide button">
-                        <button style="background-color: #5e068a; color: white; border: none; padding: 20px 40px; margin-top: 30px; border-radius: 50px;  font-weight: 600;  font-size: 16px;">VIEW COURSES</button>
+                        <button
+                            style="background-color: #5e068a; color: white; border: none; padding: 20px 40px; margin-top: 30px; border-radius: 50px;  font-weight: 600;  font-size: 16px;">VIEW
+                            COURSES</button>
                     </div>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="1300">
-                <img style="height: 500px; opacity: 0.4;" src="./pics/carousel2.jpg" class="d-block w-100" alt="...">
+                <img style="height: 500px; opacity: 0.5;" src="./pics/carousel2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block" style="margin-bottom: 40px;  text-align: start;">
-                    <h1 style=" font-weight: 600; font-size: 50px; margin-bottom: 25px;">Data Science, ML & AI<br>Big Data - Hadoop & Spark<br>Python Data Science</h1>
-                    <p style="font-family: 'Montserrat', sans-serif;">We at LUMINAR TECHNOLAB offers best software training and placement in emerging <br>technologies like
+                    <h1 style=" font-weight: 600; font-size: 50px; margin-bottom: 25px;">Data Science, ML & AI<br>Big
+                        Data - Hadoop & Spark<br>Python Data Science</h1>
+                    <p style="font-family: 'Montserrat', sans-serif;">We at LUMINAR TECHNOLAB offers best software
+                        training and placement in emerging <br>technologies like
                         BIG DATA, Data Science, Machine Learning,PYTHON, Software Testing.</p>
                     <div class="slide button">
-                        <button style="background-color: #5e068a; color: white; border: none; padding: 20px 40px; margin-top: 30px; border-radius: 50px;  font-weight: 600;  font-size: 16px;">VIEW COURSES</button>
+                        <button
+                            style="background-color: #5e068a; color: white; border: none; padding: 20px 40px; margin-top: 30px; border-radius: 50px;  font-weight: 600;  font-size: 16px;">VIEW
+                            COURSES</button>
                     </div>
                 </div>
             </div>
@@ -122,7 +129,75 @@
         </button>
     </div>
 
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+        style="margin-top: 15px; margin-left: 30px;">
+        CLICK HERE
+    </button>
 
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button style="margin-left: 455px; margin-top: 10px;" type="button" class="btn-close"
+                    data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body" style="padding:35px;">
+                    <h2 class="modal-title fs-5 " style="margin-bottom: 15px;" id="exampleModalLabel">Get Training Quote
+                        for free</h2>
+                    <form action="">
+                        <input type="text" class="form-control no-border" style="border: none;" id="inputname"
+                            placeholder="Name">
+                        <hr>
+                        <input type="text" style="border: none;" class="form-control no-border" id="inputname"
+                            placeholder="Email">
+                        <hr>
+                        <input type="text" style="border: none;" class="form-control no-border" id="inputname"
+                            placeholder="Phone Number">
+                        <hr>
+                        <select style="width: 400px; border: none;" name="current_status" required="">
+
+                            <option selected="true" disabled="disabled">Select Course interested in</option>
+                            <option>Data Science - ML - AI - Big Data with Cloud &amp; Tableau</option>
+                            <option>Python Django - Angular- Full Stack Web Development Expert</option>
+                            <option>Software Testing Specialist</option>
+                            <option>MEARN Stack Web Development Expert - Angular &amp; React</option>
+                            <option>Business Analytics - Power BI &amp; Tableau</option>
+                            <option>Android Developer Expert Training In Kochi- Flutter</option>
+                            <option>PYTHON -DATA SCIENCE with ML - AI - &amp; TABLEAU</option>
+                        </select>
+                        <hr>
+                        <input style="border: none;" type="text" name="city" placeholder="City">
+                        <hr>
+                        <textarea style="border: none;" name="message" placeholder="Comments"></textarea>
+                        <hr>
+                        <input type="submit" name="submit"
+                            style=" background-color: #5e068a; color: #fff; padding: 5px 20px; font-weight: 300; border: none; border-radius: 50px;"
+                            placeholder="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container w-20" style="margin-top: 30px;">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 mt-4">
+                <h1 style="color: #5e068a;">Luminar Technolab Pvt Ltd</h1>
+                <h5 style="margin-top: 20px;  color: #5e068a99;">CIN: U80220KL2021PTC071578</h5>
+                <p style="margin-top: 10px;">Luminar Technolab is an IT Finishing School located near Infopark - Cochin, focused on providing
+                    advanced level software training to Students and by helping them to get placed in IT companies. We
+                    are a team of IT professionals who have experience in IT sector for more than 15 plus years. Our
+                    fresher’s career foster programs are Big Data Training, Data Science Training, Data Analytics
+                    Training, Python Training, Software Testing Training & Selenium Training in Cochin, Kerala are
+                    designed in such a way to match with the current industry requirements. Our Vision is to provide
+                    100% placements to students those who enroll with us for our specialized courses.
+                </p>
+                <button style="padding: 16px 27px; font-weight: 600; margin-top: 21px; border-radius: 50px; border:2px solid #5e068a; background-color:#5e068a; color: white;">LEARN MORE</button>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img style=" margin-left: 100px;" src="./pics/grid_pic-1.jpg" alt="">
+            </div>
+        </div>
+    </div>
 
 </body>
 
